@@ -1,0 +1,12 @@
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\bin\Debug\Padaria.exe.config
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\bin\Debug\Padaria.exe
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\bin\Debug\Padaria.pdb
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.csproj.AssemblyReference.cache
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.csproj.SuggestedBindingRedirects.cache
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.Form1.resources
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.Login.resources
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.Properties.Resources.resources
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.csproj.GenerateResource.cache
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.csproj.CoreCompileInputs.cache
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.exe
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.pdb
