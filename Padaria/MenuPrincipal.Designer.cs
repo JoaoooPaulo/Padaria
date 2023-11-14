@@ -81,6 +81,7 @@
             this.btnUsuários.TabIndex = 4;
             this.btnUsuários.Text = "Usuários";
             this.btnUsuários.UseVisualStyleBackColor = true;
+            this.btnUsuários.Click += new System.EventHandler(this.btnUsuários_Click);
             // 
             // lblSaudacao
             // 
@@ -104,6 +105,7 @@
             this.Controls.Add(this.Lbltitulo);
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
+            this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

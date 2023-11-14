@@ -27,3 +27,4 @@ C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\bin\Debug\System.Numeric
 C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.csproj.CopyComplete
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.GerenciadorDeUsuarios.resources

@@ -41,7 +41,7 @@ namespace Padaria
                 usuario.Id = (int)resultado.Rows[0]["id"];
                 MessageBox.Show(usuario.NomeCompleto);
                 //Próximo Passo: Abrir janela Menu:
-                MenuPrincipal janela = new MenuPrincipal();
+                MenuPrincipal janela = new MenuPrincipal(usuario);
                 //Esconder janbela atual:
                 Hide();
                 //MostrarMenu:

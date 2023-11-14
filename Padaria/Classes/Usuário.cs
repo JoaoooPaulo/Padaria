@@ -14,7 +14,8 @@ namespace Padaria.Classes
         public string NomeCompleto { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
-        
+        public DataTable DataSource { get; internal set; }
+
         //Método:
         //Logar:
         public DataTable Logar()
@@ -30,6 +31,22 @@ namespace Padaria.Classes
             // Obter o hash da senha:
             var hashsenha = EasyEncryption.SHA.ComputeSHA256Hash(Senha);
             cmd.Parameters.AddWithValue("@Senha", hashsenha);
+            cmd.Prepare();
+            // Declarar tabela que irá receber o resultado:
+            DataTable tabela = new DataTable();
+            // Preencher a tabela com o resultado da consulta
+            tabela.Load(cmd.ExecuteReader());
+            conexaoBD.Desconectar(con);
+            return tabela;
+        }
+        public DataTable ListarTudo()
+        {
+            string comando = "SELECT id, nome_completo, email" +
+                " FROM usuarios";
+
+            Banco.ConexaoBanco conexaoBD = new Banco.ConexaoBanco();
+            MySqlConnection con = conexaoBD.ObterConexao();
+            MySqlCommand cmd = new MySqlCommand(comando, con);
             cmd.Prepare();
             // Declarar tabela que irá receber o resultado:
             DataTable tabela = new DataTable();
