@@ -36,5 +36,11 @@ namespace Padaria
             GerenciadorDeUsuarios janela = new GerenciadorDeUsuarios();
             janela.Show();
         }
+
+        private void btnComandas_Click(object sender, EventArgs e)
+        {
+            Views.GerenciadorDeComandas janela = new Views.GerenciadorDeComandas();
+            janela.Show();
+        }
     }
 }

@@ -58,3 +58,4 @@ C:\Users\joao.psferreira22\Documents\GitHub\Padaria\Padaria\obj\Debug\Padaria.cs
 C:\Users\joao.psferreira22\Documents\GitHub\Padaria\Padaria\obj\Debug\Padaria.csproj.CopyComplete
 C:\Users\joao.psferreira22\Documents\GitHub\Padaria\Padaria\obj\Debug\Padaria.exe
 C:\Users\joao.psferreira22\Documents\GitHub\Padaria\Padaria\obj\Debug\Padaria.pdb
+C:\Users\joao.psferreira22\source\repos\Padaria\Padaria\obj\Debug\Padaria.GerenciadorDeComandas.resources
